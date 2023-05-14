@@ -6,6 +6,8 @@ function MintNFT() {
   const [address, setAddress] = useState('');
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log(address);
+    console.log(tokenId);
     // Add code to submit form data
   };
 
