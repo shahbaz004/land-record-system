@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './Home'
-import MintNFT from './MintNFT'
+import Home from './NftMint'
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
    <BrowserRouter>
     <Routes>
       <Route path='/' element = {<Home />}/>
-      <Route path='MintNFT' element = {<MintNFT />}/>
     </Routes>
    </BrowserRouter>
    </>

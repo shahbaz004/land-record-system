@@ -62,3 +62,83 @@
     }
   }
   
+
+  /* Styles for the main container */
+div {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Styles for headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Styles for form elements */
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* Styles for the form container */
+.form {
+  margin-bottom: 20px;
+}
+
+/* Styles for the mint NFT section */
+#tokenId {
+  margin-bottom: 10px;
+}
+
+/* Styles for the submit button */
+[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Styles for the paragraph */
+p {
+  margin-bottom: 10px;
+}
