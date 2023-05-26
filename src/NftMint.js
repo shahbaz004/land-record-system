@@ -118,6 +118,11 @@ function Home() {
         contractABI,
         signer
       );
+      // whitelisting wallet address of users to mnt nft
+      const whitelist = await contract.whitelist('0xd35B39AE7755c6daF75a5547cc204C2E203558f0')
+      // blacklist wallet address of users
+      // const blacklist = await contract.blacklist('0xd35B39AE7755c6daF75a5547cc204C2E203558f0')
+      console.log("========whitelist=======",whitelist)
       const owner = await contract.owner();
       console.log("owner", owner);
       const tx = await contract.mint(
